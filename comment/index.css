@@ -1,0 +1,46 @@
+.comment-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .card-content {
+    text-align: center;
+  }
+  
+  .user-avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .username {
+    margin: 0;
+  }
+  
+  .comment-text {
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .comment-actions {
+    margin-top: 20px;
+  }
+  
+  .comment-actions i, .submit-button {
+    font-size: 24px;
+    margin-right: 20px;
+    color: #333;
+  }
+  
+  .submit-button {
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
